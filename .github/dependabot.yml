@@ -12,3 +12,4 @@ updates:
     allow:
       - dependency-name: "tinacms"
       - dependency-name: "@tinacms*"
+    # terget-branch: "develop"
