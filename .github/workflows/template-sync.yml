@@ -1,7 +1,8 @@
 # File: .github/workflows/template-sync.yml
+name: actions-template-sync
 
 on:
-    # cronjob trigger
+  # cronjob trigger
   schedule:
   - cron:  "0 0 1 * *"
   # manual trigger
@@ -19,5 +20,5 @@ jobs:
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           source_repo_path: tinacms/tina-cloud-starter
-          upstream_branch: <target_branch> # defaults to main
-          pr_labels: <label1>,<label2>[,...] # defaults to chore,template-sync
+          upstream_branch: main #<target_branch> # defaults to main
+          pr_labels: chore,template-sync #<label1>,<label2>[,...] # defaults to chore,template-sync
