@@ -1,9 +1,9 @@
 {
   "header": {
     "icon": {
-      "color": "orange",
+      "color": "blue",
       "style": "float",
-      "name": "tina"
+      "name": "like"
     },
     "color": "default",
     "nav": [
@@ -17,7 +17,7 @@
       },
       {
         "href": "posts",
-        "label": "Blog"
+        "label": "Posts"
       }
     ]
   },
@@ -33,6 +33,6 @@
     "color": "blue",
     "font": "sans",
     "icon": "boxicon",
-    "darkMode": "system"
+    "darkMode": "light"
   }
 }
