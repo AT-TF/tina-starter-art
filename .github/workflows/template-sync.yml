@@ -21,4 +21,4 @@ jobs:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           source_repo_path: tinacms/tina-cloud-starter
           upstream_branch: main #<target_branch> # defaults to main
-          pr_labels: chore,template-sync #<label1>,<label2>[,...] # defaults to chore,template-sync
+          pr_labels: template-sync #<label1>,<label2>[,...] # defaults to chore,template-sync
